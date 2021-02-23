@@ -134,6 +134,15 @@
   max-height: 90%;
 }
 
+/* Reel */
+#reel {
+  background-color: #D7D71A;
+}
+
+#reel h1{
+  text-transform: uppercase;
+}
+
 /*jumbotron.css*/
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
 body {
