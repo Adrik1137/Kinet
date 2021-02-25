@@ -141,6 +141,56 @@
 
 #reel h1{
   text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/* Programas */
+#programas{
+  background-color: #000;
+}
+
+/* Dirección */
+#direccion {
+  background-color: #D7D71A;
+  text-align: center;
+}
+
+#direccion h2{
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+#direccion .col{
+  padding: 0;
+}
+
+#contacto {
+  background-color: #000;
+  color: #fff;
+}
+
+/* footer */
+footer{
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+}
+
+footer h2{
+  text-transform: uppercase;
+}
+
+footer h2, h3{
+font-size: 1.5rem;
+}
+
+footer p{
+  margin-bottom: 0;
+  margin-top: 0.8rem;
+
+  font-size: 0.8rem;
 }
 
 /*jumbotron.css*/
