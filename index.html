@@ -55,21 +55,18 @@
 
   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">Quiénes somos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Quiénes somos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <a class="nav-link" href="#direccion">Contacto</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
         <div class="dropdown-menu" aria-labelledby="dropdown01">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="#servicios">Marketing y publicidad</a>
+          <a class="dropdown-item" href="#servicios">Branding y diseño</a>
+          <a class="dropdown-item" href="#servicios">Producción audiovisual</a>
         </div>
       </li>
     </ul>
@@ -86,10 +83,8 @@
 
   <!-- Main jumbotron for a primary marketing message or call to action -->
   <div id="home" class="jumbotron">
-    <div  class="container">
-      <h1>Bienvenido a Kinet Media!</h1>
-      <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+    <div  class="container home">
+      <img src="images/KinetMediaLogo.PNG">
     </div>
     <div id="slogan" class="container">
       <h1>Creando sueños y materializando ideas.</h1>
@@ -106,7 +101,7 @@
       </div>
 
       <div class="col">
-        <h2>GIF logo</h2>
+        <img src="images/KinetMediaLogoBlanco.png">
       </div>
 
   </div>
@@ -158,40 +153,20 @@
   </div> <!-- Dante -->
 
   <div id="reel">
-    <div>
+    <div class="container-fluid">
       <!-- El reel va aquí -->
       <h1> El reel va aquí</h1>
     </div>
 
-    <div>
+    <div class="container">
       <h1>Demo Reel</h1>
     </div>
   </div> <!-- Reel -->
 
   <div id="programas">
-    <div class="container-fluid">
-      <div class="row container-fluid">
-        <div class="col-4">
-          <img src="#">
-        </div>
-        <div class="col-4">
-          <img src="#">
-        </div>
-        <div class="col-4">
-          <img src="#">
-        </div>
-      </div>
-      <div class="row container-fluid">
-        <div class="col-4">
-          <img src="#">
-        </div>
-        <div class="col-4">
-          <img src="#">
-        </div>
-        <div class="col-4">
-          <img src="#">
-        </div>
-      </div>
+    <div id= "tagscr" class="taggbox-container" style=" width:70%;height:100%;overflow: auto;">
+      <div class="taggbox-socialwall" data-wall-id="51959" view-url="https://widget.taggbox.com/51959">  </div>
+      <script src="https://widget.taggbox.com/embed.min.js" type="text/javascript"></script>
     </div>
   </div> <!-- Programa -->
 
@@ -208,11 +183,6 @@
           <img src="images/Producción.jpg">
         </div>
       </div>
-      <div class="row container-fluid">
-        <div id="mapa" class="col">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.906193309536!2d-98.1852426852705!3d19.067861587092544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc10f32b1424f%3A0x33be780050a5a4eb!2sCalle%20Francisco%20I%20Madero%205811%2C%20Adolfo%20L%C3%B3pez%20Mateos%2C%2072240%20Puebla%2C%20Pue.!5e0!3m2!1ses-419!2smx!4v1614296570789!5m2!1ses-419!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-      </div>
     </div>
   </div>
 
@@ -221,17 +191,17 @@
 
 <footer class="container-fluid">
   <h2>KinetMedia</h2>
-  <h3>Formulario de suscripción</h3>
-  <p>Correo</p>
-  <p>botón</p>
   
   <p>kinetmediamx@gmail.com</p>
   <p>221 230 - 8354</p>
   <p>Calle Francisco I. Madero 5811-B Adolfo López Mateos Puebla</p>
 
-  <p>&copy; Kinet Media 2021</p>
+  <p>&copy; Christian Alvarado 2021</p>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-      <script>window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="js/bootstrap.bundle.min.js"></script></body>
+      <script>window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/buttoncorrection.js"> </script>
+    </body>
 </html>

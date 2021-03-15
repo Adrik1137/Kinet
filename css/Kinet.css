@@ -18,6 +18,10 @@
   margin-bottom: 0;
 }
 
+#home img{
+  max-width: 100%;
+}
+
 #home p, h1{
   color: antiquewhite;
 }
@@ -73,6 +77,10 @@
   padding-left: 5rem;
   padding-right: 5rem;
   padding-bottom: 5rem;
+}
+
+#about img{
+  max-width: 100%;
 }
 
 /* Servicios */
@@ -142,9 +150,10 @@
 
 /* Dante */
 #dante{
-  background-color: #000;
+  background-color: #D7D71A;
   margin: 0;
   color: #fff;
+  padding-top: 2rem;
 }
 
 #dante img{
@@ -152,20 +161,45 @@
   max-height: 90%;
 }
 
+#dante .puesto{
+  padding-top: 5rem;
+}
+
+#dante .puesto p {
+  padding-left: 0;
+}
+
 /* Reel */
 #reel {
   background-color: #D7D71A;
+}
+
+#reel .container-fluid{
+  padding: 0;
+  background-color: #000;
 }
 
 #reel h1{
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 0;
+  padding: 3rem;
 }
 
 /* Programas */
 #programas{
   background-color: #000;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+#programas .taggbox-container{
+  margin:auto;
+  color: white;
+}
+
+#programas .taggbox-container button{
+  border: 1px solid;
 }
 
 #programas .row{
