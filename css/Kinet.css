@@ -12,6 +12,11 @@
   max-width: 100%;
 }
 
+.font-awesome-icon a{
+  color: #fff;
+  padding: 0.5rem;
+}
+
 /* home */
 #home {
   background-color: #000000;
@@ -272,8 +277,33 @@ footer p{
   font-size: 0.8rem;
 }
 
+/**************** Cotizacion ************/
+#cotizacion{
+  background-color: #C8D023;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.form-kinet{
+  display: block;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #D8D836;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin-bottom: 0.5rem;
+  width: 80%; 
+}
+
+
 /*jumbotron.css*/
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
-body {
+/*body {
     padding-top: 3.5rem;
-  }
+  }*/
