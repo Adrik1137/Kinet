@@ -284,6 +284,8 @@ footer p{
   padding-bottom: 2rem;
 }
 
+
+
 .form-kinet{
   display: block;
   height: calc(1.5em + .75rem + 2px);
@@ -298,7 +300,29 @@ footer p{
   border-radius: .25rem;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
   margin-bottom: 0.5rem;
-  width: 80%; 
+  width:100%; 
+}
+
+#form-contacto{
+  margin:auto;
+  max-width: 50%;
+}
+
+.form-servicios{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#mc_embed_signup{
+  max-width: 50%;
+}
+
+#mc_embed_signup .btn{
+  margin-top: 1rem;
+}
+
+.indicates-required{
+  margin-bottom: 1rem;
 }
 
 
