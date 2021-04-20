@@ -241,6 +241,13 @@
   padding: 0;
 }
 
+#direccion img{
+  max-width: 100%;
+}
+
+.cont{
+  padding: 0;
+}
 #contacto {
   background-color: #000;
   color: #fff;
